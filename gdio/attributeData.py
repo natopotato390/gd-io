@@ -17,7 +17,7 @@ obj_attr_map = {
     3: gdAttribute("y", float),
     4: gdAttribute("flip-horizontal", bool),
     5: gdAttribute("flip-vertical", bool),
-    6: gdAttribute("rotation", int),
+    6: gdAttribute("rotation", float),
     7: gdAttribute("trigger-color-red", int),
     8: gdAttribute("trigger-color-green", int),
     9: gdAttribute("trigger-color-blue", int),
@@ -57,6 +57,8 @@ obj_attr_map = {
     86: gdAttribute("trigger-pulse-exclusive", bool),
     87: gdAttribute("trigger-spawn-multi-enable", bool),
     108: gdAttribute("link", int),
+    128: gdAttribute("scale-x", float),
+    128: gdAttribute("scale-y", float),
 }
 
 # mapping a numeric ID of a color to a named attribute with a specific type
